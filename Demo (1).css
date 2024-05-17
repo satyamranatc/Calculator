@@ -1,0 +1,76 @@
+body
+{
+ background-image:linear-gradient(to right , rgb(0, 255, 132) , rgb(3, 225, 245))   
+}
+
+
+.Cal
+{
+    height: 100vh;
+   
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.Result
+{
+    padding: 10px;
+    background-color: white;
+    height: 30%;
+    display: block;
+    border-radius:  10px 10px 0 0;
+}
+
+.History
+{
+    font-size: 40px;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    
+}
+.Answer
+{
+    font-size: 60px;
+    position: relative;
+    top: 80px;
+}
+
+.NumPad
+{
+    background-color: black;
+    height: 70%;
+    border-radius:   0 0 10px 10px ;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.Btns
+{
+    margin:  0 auto;
+   
+}
+.NumPad button
+{
+   border-radius: 50%;
+   height: 60px;
+   width:60px;
+
+    position: relative;
+    /* left: 10%; */
+   font-size: 30px;
+   margin: 25px;
+
+    color: white;
+
+
+}
+
+.Btn:hover
+{
+    background-color: white;
+    color: black;
+
+}

@@ -1,0 +1,100 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(to left, #89f7fe, #66a6ff);
+  }
+  
+  #calculator {
+    width: 375px;
+    height: 540px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    top: 20px;
+   
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #output {
+    text-align: right;
+    height: 60px;
+    margin: 5px 20px;
+    font-size: 30px;
+  }
+  
+  #history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 17px;
+    color: rgb(255, 17, 17);
+  }
+  
+  .button {
+    width: 50px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border-width: 1.5px;
+    border-color: rgb(1, 194, 130);
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #d7dbdf;
+  }
+  
+  .button:active {
+    font-size: 30px;
+    border-width: 2.5px;
+    background-color: #c6d5c9;
+  }
+  
+  .button:focus {
+    outline: 0;
+  }
+  
+  #Equal {
+    font-size: 22px;
+    background-color: #b5c594;
+  }
+  
+  #div {
+    font-size: 22px;
+  }
+  #mult {
+    font-size: 22px;
+  }
+  #sub {
+    font-size: 22px;
+  }
+  #sum {
+    font-size: 22px;
+  }
+  
+  #C {
+    font-size: 22px;
+    background-color: tomato;
+  }
+  
+  #CE {
+    font-size: 20px;
+    background-color: #10c9d6;
+  }
+  
+  #x2 {
+    font-size: 20px;
+    background-color: #17e17c;
+  }
+  
+  #x3 {
+    font-size: 20px;
+    background-color: rgb(228, 219, 115);
+  }
+  
+  
